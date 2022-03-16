@@ -1,0 +1,79 @@
+Veh Parameters
+4 1   1
+1 1 1495 4.88 0.6 0.5 151.4 0   0.92 0.31 2.467  1.75 0.0328 4.575 1.0  0.0  0.0 0    0.21 0.95 0.0  0.0  0.0    0.0  0.0  0.0  0.0006289 1.1997e-05 1e-06 0 
+2 3 1595 4.45 0.6 0.5 80  80 0.92 0.28 2.3316 1.75 0.0328 4.575 1.0  0.0  0.0 0.90 0.21 0.95 0.95 0.91 0.0411 0.0  24.0 0.70 0.0 0.0 0.0 0.0 
+3 6 1380 4.47 0.6 0.5 100   0   0.92 0.28 2.3316 1.75 0.0328 4.575 1.0  0.0  0.0 0.90 0.0  0.95 0.0  0.0  0.0411 0.0  0    0    0.006 0.077091964 -0.0000915511 0.003998417
+4 3 1595 4.45 0.6 0.5 80  80 0.92 0.28 2.3316 1.75 0.0328 4.575 1.0  0.0  0.0 0.90 0.21 0.95 0.95 0.91 0.0411 0.0  24.0 0.70 0.0 0.0 0.0 0.0 
+
+1 3 1595 4.45 0.6 0.5 80  80 0.92 0.28 2.3316 1.75 0.0328 4.575 1.0  0.0  0.0 0.90 0.21 0.95 0.95 0.91 0.0411 0.0  24.0 0.70 0.0 0.0 0.0 0.0 
+
+1 1 1495 4.88 0.6 0.5 151.4 0   0.92 0.31 2.467  1.75 0.0328 4.575 1.0  0.0  0.0 0    0.21 0.95 0.0  0.0  0.0    0.0  0.0  0.0  0.0006289 1.1997e-05 1e-06 0
+2 6 1380 4.47 0.6 0.5 100   0   0.92 0.28 2.3316 1.75 0.0328 4.575 1.0  0.0  0.0 0.90 0.0  0.95 0.0  0.0  0.0411 0.0  0    0    0.006 0.077091964 -0.0000915511 0.003998417
+3 3 1595 4.45 0.6 0.5 80  80 0.92 0.28 2.3316 1.75 0.0328 4.575 1.0  0.0  0.0 0.90 0.21 0.95 0.95 0.91 0.0411 0.0  24.0 0.70 0.0 0.0 0.0 0.0 
+
+
+1 1 1495 4.88 0.6 0.5 151.4 0   0.92 0.31 2.467  1.75 0.0328 4.575 1.0  0.0  0.0 0    0.21 0.95 0.0  0.0  0.0    0.0  0.0  0.0  0.0006289 1.1997e-05 1e-06 0
+2 6 1380 4.47 0.6 0.5 100   0   0.92 0.28 2.3316 1.75 0.0328 4.575 1.0  0.0  0.0 0.90 0.0  0.95 0.0  0.0  0.0411 0.0  0    0    0.006 0.077091964 -0.0000915511 0.003998417
+3 3 1595 4.45 0.6 0.5 80  80 0.92 0.28 2.3316 1.75 0.0328 4.575 1.0  0.0  0.0 0.90 0.21 0.95 0.95 0.91 0.0411 0.0  24.0 0.70 0.0 0.0 0.0 0.0 
+
+
+
+Sample inputs
+1 2 3    4    5   6   7     8   9    10   11     12   13     14    15   16   17  18   19   20   21   22   23     24   25   26   27  28  29  30 
+1 1 1495 4.88 0.6 0.5 151.4 0   0.92 0.31 2.467  1.75 0.0328 4.575 1.0  0.0  0.0 0    0.21 0.95 0.0  0.0  0.0    0.0  0.0  0.0  0.0006289 1.1997e-05 1e-06 0
+1 3 1595 4.45 0.6 0.5 80    80  0.92 0.28 2.3316 1.75 0.0328 4.575 1.0  0.0  0.0 0.90 0.21 0.95 0.95 0.91 0.0411 0.0  24.0 0.70 0.0 0.0 0.0 0.0 
+1 4 1717 4.49 0.6 0.5 63    111 0.92 0.28 2.3316 1.75 0.0328 4.575 1.0  0.0  0.0 0.90 0.21 0.95 0.95 0.91 0.0411 0.0  16.5 0.70 0.006 0.077091964 -0.0000915511 0.003998417
+1 6 1380 4.47 0.6 0.5 100   0   0.92 0.28 2.3316 1.75 0.0328 4.575 1.0  0.0  0.0 0.90 0.0  0.95 0.0  0.0  0.0411 0.0  0    0    0.006 0.077091964 -0.0000915511 0.003998417
+
+1 2018 Toyota Camry LE2.5  --> ICEV
+3 2013 Nissan leaf         --> BEV
+4 2013 Chevy Volt
+6 2011 Toyota Prius        --> HEV
+
+
+2	1	Number of vehicle types defined [integer]
+	2	Energy model to be used (0: VT-Micro,   1 VTCPXM)
+	3	VTCPXM  link cost updating mode (0: use VTCPFM 8 varibales to compute the link cost,   1: update  the link cost using feedback from vehicles)
+3+
+1	Vehicle type number [integer].
+(0 ? x ? max. number of vehicle types (25 types))
+2	Type of the engine for this car type 
+1: Gas(done),  
+2: Diesel (done),  
+3: Full electric (done), (has only one motor)
+4: Plug-in hybrid serial (under development), (has one gas engine and one electric motor working in serial)
+5: plug-in hybrid parallel (under development), (has one gas engine and one electric motor working in parallel).
+6: hybrid (From the paper: a simple hybrid electric fuel consumption model for transportation applications).
+3	Vehicle weight (kg)
+4	Vehicle length (meters)
+5	Proportion of mass on tractive axle (e.g. 0.40 is equivalent to 40 percent)
+6	Coefficient of friction
+7	Vehicle gas/diesel engine power (KWatts)
+8	Maximum battery energy for eclectic motor (KWatts) 
+9	Transmission efficiency
+10	Drag coefficient
+11	Frontal area (m2)
+12	Rolling coefficient
+13	First rolling resistance constant
+14	Second rolling resistance constant
+15	Driver pedal input [0, 1]. For example, a value of 0.6 would reflect a depressing of the gas pedal of 60% which results in a throttle level of 60%.
+16	Gr1 – Truck gear parameter (default = 1164)
+17	Gr2 – Truck gear parameter (default = -0.75)
+18	Battery efficiency for electric vehicles.
+19	Minimum state of charge for electric vehicles. 
+20	Maximum state of charge for electric vehicles.
+21	Initial State of Charge
+22	Electric motor efficiency for eclectic vehicles. 
+23	Regenerative efficiency for eclectic vehicles.
+24	Switching buffer between gas engine and electric motor in Plug-in hybrid serial cars
+25	Battery capacity (KWH) for electric vehicles 
+26	Energy consumed by auxiliaries (KW)
+27	The VTCPFM model parameter Alph0. This will be the same as Alph0 for Hybrid
+28	The VTCPFM model parameter Alph1. This will be the same as Alph1 for Hybrid
+29	The VTCPFM model parameter Alph2. This will be the same as Alph2 for Hybrid
+30	Hybrid vehicle Parameter Alph3 (coefficient of velocity)
+
+
+
+
+
